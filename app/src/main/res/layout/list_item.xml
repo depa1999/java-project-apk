@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:cardBackgroundColor="@color/hijau_muda"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_marginLeft="50dp"
+            android:layout_width="362dp"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:id="@+id/gambar_pahlawan"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/pattimura" />
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/nama_pahlawan"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:hint="Nama Pahlawan"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
